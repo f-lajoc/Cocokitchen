@@ -1,0 +1,253 @@
+/* hamburger menu */
+ *{ 
+
+margin : 0;
+     padding : 0;
+     box-sizing: border-box;
+ 
+     }
+     
+nav{
+  background-color: #ff2b9d ;
+  opacity: .8;
+  color :#fff;
+  display: flex;
+    justify-content: space-between;
+}
+nav .mainMenu{
+    list-style: none ;
+    display: flex;
+ color: whitesmoke;
+}
+
+nav .mainMenu li a{
+  display: inline-block;
+  padding : 15px;
+  text-decoration: none;
+  text-transform: uppercase ;
+  color : whitesmoke;
+  font-size: 1.5rem;
+  font-family: "Stylish", sans-serif;
+}
+
+nav .mainMenu li a:hover,li a:hover {
+  background : #ff2b9d;
+}
+nav .openMenu{
+  font-size: 2rem;
+  margin : 20px;
+  display: none;
+  cursor : pointer ;
+}
+
+nav .mainMenu .closeMenu, .icons i{
+  font-size: 2rem;
+  display: none;
+  cursor : pointer ;
+  color: #ff2b9d;
+  list-style: none ;
+}
+
+.fa:hover{color: white;}
+
+nav .logo{
+  margin : 10px;
+  font-size: 25px;
+  cursor : pointer ;
+  text-transform: uppercase ;
+  font-family: "Red Hat Display", cursive;
+}
+
+.Logo{
+color:black;
+
+font-family: "Stylish", sans-serif;
+}
+.cta{
+margin : 8px;
+  padding: 5px;
+  font-size: 20px;
+  opacity: .3;
+  background-color: whitesmoke ;
+}
+
+/* home */
+#food{
+  width: 100%;
+  
+}
+.container{
+  position: relative;
+  z-index: 1;
+}
+.content{
+  position: absolute;
+  min-width: 80%;
+           top: 20%;
+            left: 10%;
+            background-color: black;
+  color: white;
+       font-size: 1.5rem;     
+       padding: 7px;
+       opacity: 0.8;
+       text-align: center;
+       
+}
+.content > h1{
+  padding: 2rem 1rem;
+}
+
+.login{
+   margin : 30px;
+  color: whitesmoke;
+  padding: 5px;
+  background-color: #ff2b9d;
+  font-size: 20px;
+  position: relative;
+  
+}
+
+/* about */
+.about, .contact{
+    text-align: left;
+      font-size: 1rem;
+      margin: 2rem 2rem 4rem;
+}
+
+.success{
+  text-align: left;
+}
+
+ h2, h3{
+   font-size: 2rem;
+   color: #ff2b9d;
+   padding-bottom: 10px;
+   font-family: "Stylish", sans-serif;
+}
+h2{
+  font-size: 3rem;
+}
+main .Abt-container{
+  display: flex;
+  flex-direction: row ;
+  margin: 1.5rem;  
+  justify-content: space-between;
+  
+}
+.dev{
+  text-align: center;
+}
+.dev img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.dev_gray{
+  color: gray;
+  padding-bottom: 5px;
+}
+
+.Abt-container > div{
+  width: 50%;
+  
+}
+
+.contact li{
+margin: 2rem;
+text-align: left;
+  list-style: none;
+  font-size: 1.5rem;
+  
+}
+.footer-link i, li a{
+text-decoration: none;
+padding-left: 2px;
+  color: black;
+}
+footer{
+  margin-top: 4rem;
+  text-align: center;
+}
+footer a{
+
+  color:  #ff2b9d;
+}
+/* Mobile view */
+
+@media(max-width: 800px){
+/* hamburger menu */
+nav .mainMenu{
+    list-style: none ;
+    display: flex;
+    position: fixed;    
+/*   width: 40%; */
+    height:60vh;
+ top : 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background : black;
+    transition: top 1s ease;
+    display: none;
+}
+
+.cta{
+  margin : 40px 8px 20px;
+  color: whitesmoke;
+  opacity: .6;
+  background-color: #ff2b9d;
+  font-size: 2rem;
+}
+
+nav .mainMenu .closeMenu{
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+nav .openMenu{
+  display: block;
+    
+}
+
+nav .mainMenu li a:hover{
+  background : black ;
+  color:#ff2b9d ;
+  font-size: 1.6rem;
+}
+
+.icons i{
+  display: inline-block;
+  padding : 12px;
+  
+}
+
+nav .mainMenu li a{
+color: whitesmoke;
+}
+
+/* home */
+.login{
+margin: 7px;
+padding: 0 20px;
+}
+
+.content{
+max-width: 40%;
+  padding: 4px;
+top: 15%;
+font-size: 1rem;     
+}
+.content > h1{
+  padding: 10px 5px;
+  font-size: 1.5rem;
+}
+h2, h3{
+  font-size: 2rem;
+}
+}
