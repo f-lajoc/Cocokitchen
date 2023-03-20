@@ -1,5 +1,5 @@
 # Cokokitchen 
-simple website with nav bar and hamburger menu, login page and forget password that generates OTP
+Simple website with nav bar and hamburger menu, login page and forget password that generates OTP
 
 ## Table of contents
 
@@ -9,8 +9,8 @@ simple website with nav bar and hamburger menu, login page and forget password t
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-    - [Troubles](#troubles)
-  - [What I learned and used](#what-i-learned)
+  - [Troubles](#troubles)
+  - [What I learned and used](#what-i-learned-and-used)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -26,7 +26,10 @@ Users should be able to:
 
 ### Video 
 
-<img src="images/initial.png" width="300px">
+
+https://user-images.githubusercontent.com/104025961/226297522-fbbe08da-f2ff-4453-9c8a-075c77354dfb.mp4
+
+
 
 
 ### Links
@@ -59,8 +62,8 @@ I mostly had issues with css styling
 
 ### What I learned and used
 
-I understand z-index is to stack poditioned elements, through this project, i used it in the hamburger menu to cover the home page using JavaScript style.
-
+- I understand z-index is to stack poditioned elements, through this project, i used it in the hamburger menu to cover the home page using JavaScript style.
+- I learnt something new about how to add video to Readme, i just clicked on attach files at the bottom of readme editing and the video becomes embedded in it
 From the knowledge I have now, i used some JavaScript I've learnt like
 
 - variable declaration
@@ -86,7 +89,7 @@ Hopefully bootstrap
 - [https://youtu.be/1iS0r238G4g] - helped with the hamburger menu
 - [https://css-tricks.com] - Flexbox
 - [https://www.google.com]- Random search when I thought of how i want the page to look like
-- [https://w3schools.com] - Avatar image, Font awesome link and more
+- [https://w3schools.com] - Avatar image, Font awesome link, readme video and more
 
 ## Author
 
