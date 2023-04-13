@@ -50,13 +50,13 @@ https://user-images.githubusercontent.com/104025961/226297522-fbbe08da-f2ff-4453
 
 I mostly had issues with css styling
 
-- Font-awesome bars and times was not working, it took me days to debug that it was introduced in a version -[<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">] and the color was also blending with the background, so it doesn't work till i used the correct version and style it
+- Font-awesome bars and times was not working, it took me days to debug that it was introduced in a version -[link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">font-awesome] and the color was also blending with the background, so it didn't work till i used the correct version and style it
 
-- Creating hamburger menu was another headache, i hadn't done it before, so this was my first time creating it
+- Creating hamburger menu was another headache, i haven't done it before, so this was my first time creating it
 
 -The forget password,i wanted to make it send the otp to email but after using my knowledge so far and research, i figured I'll need framework to do that, at first i created it as a form with submit button that shows the otp on click, but submit button refreshes the page in nanoseconds so the otp barely displayed, after brainstorming on possible ways to make it work, I'll also need framework to not make the submit button submit immediately... so i later resorted to this
 
-- I had to separate my JavaScript for each page, cause in line 6 of forget password js file, the addEventListener, i keep getting -Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')- but it works so i left the debugging but it hundred the execution of the index js which i didn't realize for awhile, had me questioning my knowledge on JavaScript, before i resorted to sepaating them solving my problem
+- I had to separate my JavaScript for each page, cause in line 6 of forget password js file, the addEventListener, i keep getting -Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')- but my code works so i left the debugging but it hindered the execution of the index js which i didn't realize for awhile, had me questioning my knowledge on JavaScript, before i resorted to separating them which solved my problem
 
 - Then some other minor issues like image on text, avatar images, that Google search solved
 
